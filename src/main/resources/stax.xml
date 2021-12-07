@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CandyBox>
+    <Candy>
+        <Id>13726</Id>
+        <Name>Cow</Name>
+        <Company>Roshen</Company>
+        <Type>Iris</Type>
+        <Ingredients>
+            <Milk>12.2</Milk>
+            <Sugar>202.0</Sugar>
+            <Cacao>100.0</Cacao>
+            <Vanilla>1.5</Vanilla>
+            <Fructose>10.5</Fructose>
+        </Ingredients>
+    </Candy>
+    <Candy>
+        <Id>23973283</Id>
+        <Name>Pink Pantera</Name>
+        <Company>AVK</Company>
+        <Type>Chocolate</Type>
+        <Ingredients>
+            <Milk>15.7</Milk>
+            <Sugar>204.0</Sugar>
+            <Cacao>88.0</Cacao>
+            <Vanilla>5.0</Vanilla>
+            <Fructose>15.0</Fructose>
+        </Ingredients>
+    </Candy>
+</CandyBox>

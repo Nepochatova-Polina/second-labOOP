@@ -1,0 +1,32 @@
+<xs:schema elementFormDefault="qualified" targetNamespace="http://www.w3schools.com/RedsDevils" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CandyBox">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Candy" maxOccurs="unbounded" minOccurs="0">
+          <xs:annotation>
+            <xs:documentation>1 or more repetitions:</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:int" name="Id"/>
+              <xs:element type="xs:string" name="Name"/>
+              <xs:element type="xs:string" name="Company"/>
+              <xs:element type="xs:string" name="Type"/>
+              <xs:element name="Ingredients">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:float" name="Milk"/>
+                    <xs:element type="xs:float" name="Sugar"/>
+                    <xs:element type="xs:float" name="Cacao"/>
+                    <xs:element type="xs:float" name="Vanilla"/>
+                    <xs:element type="xs:float" name="Fructose"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
